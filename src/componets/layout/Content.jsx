@@ -1,9 +1,19 @@
 import React from "react";
-
+import {Routes, Route} from 'react-router-dom';
+import About from '../../views/exemples/About';
+import Home from '../../views/exemples/Home';
+import NotFound from "../../views/exemples/NotFound";
+import Param from "../../views/exemples/Param";
+import './Content.css'
 function Content(props){
     return(
         <main className="Content" >
-                content 
+                <Routes>
+                    <Route path="/about" element={<About />} />
+                    <Route path="/param/:id" element={<Param />} />
+                    <Route path="/" exact element={<Home />} />
+                    <Route path="*" exact element={<NotFound />} />
+                </Routes>
         </main>
     )
 }
