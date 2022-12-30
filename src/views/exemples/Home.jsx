@@ -4,7 +4,7 @@ function Home(props){
     return(
         <main className="Home" >
                 <h1>Inicio</h1>
-                <h2>Bem vindo</h2> 
+                <h2>Olá, Seja Bem vindo</h2> 
         </main>
     )
 }

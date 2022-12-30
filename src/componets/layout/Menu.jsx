@@ -10,6 +10,9 @@ function Menu(props){
                         <Link to="/">Inicio</Link>
                     </li>
                     <li>
+                        <Link to="/jogo">Jogo</Link>
+                    </li>
+                    <li>
                         <Link to="/param/123">Param #01</Link>
                     </li>
                     <li>

@@ -1,0 +1,13 @@
+.Jogo{
+    width: 70%;
+    height: 80%;
+    background-color: blueviolet;
+}
+
+.linha{
+    width: 10%;
+    height: 10%;
+    border: 2px;
+    background-color: aqua;
+    color: aliceblue;
+}
